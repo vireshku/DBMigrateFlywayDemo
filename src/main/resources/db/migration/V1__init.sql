@@ -4,4 +4,4 @@ CREATE TABLE PERSON (
 	last_name varchar(255) not null
 );
 
-insert into PERSON (first_name, last_name) values ('Dave', 'Syer');
+insert into PERSON (first_name, last_name) values ('Viresh', 'Kumar');
