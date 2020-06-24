@@ -24,10 +24,10 @@ public class SampleFlywayApplication
      return "DB Migrate Demo using the FlyBase !!!!!";
  }
 
-	/*
-	 * public void run(String... args) throws Exception {
-	 * System.err.println(this.repository.findAll()); }
-	 */
+	
+	  public void run(String... args) throws Exception {
+	  System.err.println(this.repository.findAll()); }
+	 
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SampleFlywayApplication.class, args);
